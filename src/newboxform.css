@@ -1,0 +1,30 @@
+.NewBoxForm {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: lightblue;
+  color: white;
+  height: 400px;
+  width: 400px;
+}
+
+form div {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form div input {
+  height: 40px;
+  font-size: 38;
+  width: 200px;
+}
+
+form button {
+  background-color: lightcoral;
+  height: 50px;
+  width: 200px;
+  font-size: 30px;
+}
